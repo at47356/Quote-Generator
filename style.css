@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(./background.jpg) no-repeat center center/ cover;
+}
+
+.main-box {
+    background-color: antiquewhite;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 10px 15px 29px 12px rgba(0,0,0,0.75);
+}
