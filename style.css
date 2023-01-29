@@ -11,12 +11,68 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background: url(./background.jpg) no-repeat center center/ cover;
+    background: url(./background.jpeg) no-repeat center center/ cover ;
+    
 }
 
-.main-box {
-    background-color: antiquewhite;
-    padding: 2em;
+.container {
+    background-color: #E4DED0;
+    padding: 1em 2em 2em 2em;
     border-radius: 10px;
     box-shadow: 10px 15px 29px 12px rgba(0,0,0,0.75);
+}
+
+h2 {
+    padding: 1rem;
+    font-family: 'Zilla Slab', serif;
+}
+
+.text-area {
+    margin: 0 0 5px 0;
+}
+
+.quote {
+
+    font-family: 'Vollkorn', serif;
+    color: #0B0A16;
+    font-size: large;
+    /* border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(50),
+        cursor .4s step-end infinite alternate;
+
+} 
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from { width: 0 } */
+}
+
+.person {
+    margin: 0 0 10px 0;
+    font-family: 'Yesteryear', cursive;
+    font-size: large;
+    color: #341718;
+}
+
+#newquote {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: #341718;
+    color: aliceblue;
+}
+
+#newquote:hover {
+    cursor: pointer;
+    font-weight: 400;
 }

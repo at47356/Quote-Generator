@@ -21,7 +21,7 @@ function getQuotes() {
 
     quoteObject = response[ourNum];
 
-    span.innerHTML = quoteObject.text;
+    span.innerHTML = `${quoteObject.text}`;
     div.innerHTML = quoteObject.author;
   }
   fetchFunc();
